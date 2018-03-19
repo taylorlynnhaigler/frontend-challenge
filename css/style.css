@@ -17,7 +17,7 @@ body {
 /* font styling */
 
 h4, h5 {
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
 }
 
 .time h4 {
@@ -101,10 +101,10 @@ header {
 }
 
 .number {
-  margin-top: -2px;
-  width: 80px;
+  width: 72px;
   height: 80px;
   float: left;
+  margin-top: -2px;
   padding-left: 8px;
 }
 
@@ -124,6 +124,10 @@ header {
 .number img {
   width: 64px;
   height: 64px;
-  padding: 0px;
+  padding-top: 0;
   margin-left: 0;
+}
+
+.extra {
+  height: 80px;
 }
