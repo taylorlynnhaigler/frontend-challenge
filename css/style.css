@@ -1,13 +1,16 @@
+html {
+  overflow-y: hidden;
+}
 
 body {
   background-color: #fcfcff;
   color: #fff;
   font-family: "Roboto Light", Helvetica, sans-serif;
-  font-size: 16px;
-  height: 800px;
+  font-size: 14px;
+  height: 600px;
   margin: auto;
   margin-top: 50px;
-  width: 420px;
+  width: 360px;
 }
 
 .iphone {
@@ -16,11 +19,11 @@ body {
 
 /* font styling */
 
-h4, h5 {
+h2, h4, h5 {
   letter-spacing: 1.2px;
 }
 
-.time h4 {
+.time h4, .time h5 {
   text-align: right;
 }
 
@@ -69,9 +72,32 @@ header {
 }
 
 .title img {
+
   margin-bottom: 8px;
   margin-top: 16px;
-  width: 95%;
+}
+
+.arrow {
+  height: 32px;
+  width: 18px;
+  float: left;
+  padding-left: 16px;
+}
+
+.location {
+  width: 270px;
+  float: left;
+  padding-left: 16px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.account {
+  width: 8px;
+  height: 30px;
+  padding-right: 16px;
+  padding-left: 12px;
+  padding-top: 19px;
 }
 
 /* map */
@@ -90,7 +116,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   height: 300px;
-  justify-content: center;
+  justify-content: left;
   padding-top: 16px;
   padding-bottom: 24px;
   width: 420px;
@@ -101,7 +127,7 @@ header {
 }
 
 .number {
-  width: 72px;
+  width: 60px;
   height: 80px;
   float: left;
   margin-top: -2px;
@@ -109,24 +135,27 @@ header {
 }
 
 .destination {
-  width: 232px;
+  width: 200px;
   height: 70px;
   float: left;
+  padding-left: 8px;
 }
 
 .time {
-  width: 80px;
+  width: 60px;
   height: 70px;
-  padding-right: 16px;
+  padding-right: 24px;
   float: left;
 }
 
 .number img {
-  width: 64px;
-  height: 64px;
+  width: 58px;
+  height: 58px;
   padding-top: 0;
   margin-left: 0;
 }
+
+/* adding padding to the last four bus schedules */
 
 .extra {
   height: 80px;
