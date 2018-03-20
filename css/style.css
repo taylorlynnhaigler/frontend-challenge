@@ -23,6 +23,7 @@ h2, h4, h5 {
   letter-spacing: 1.2px;
 }
 
+
 .time h4, .time h5 {
   text-align: right;
 }
@@ -81,7 +82,7 @@ header {
   height: 32px;
   width: 18px;
   float: left;
-  padding-left: 16px;
+  padding-left: 10px;
 }
 
 .location {
@@ -93,9 +94,9 @@ header {
 }
 
 .account {
-  width: 8px;
+  width: 9px;
   height: 30px;
-  padding-right: 16px;
+  padding-right: 10px;
   padding-left: 12px;
   padding-top: 19px;
 }
@@ -155,8 +156,12 @@ header {
   margin-left: 0;
 }
 
-/* adding padding to the last four bus schedules */
+/* adjusting spacing to the bus schedules in the table to correct alignment */
 
-.extra {
-  height: 80px;
+.adjust {
+  padding-top: 2px;
+}
+
+.target {
+  margin-top: -4px;
 }
