@@ -97,7 +97,7 @@ header {
 .location {
   width: 270px;
   float: left;
-  padding-left: 18px;
+  padding-left: 16px;
   padding-top: 29px;
   text-align: center;
 }
@@ -106,7 +106,7 @@ header {
   width: 9px;
   height: 30px;
   padding-right: 8px;
-  padding-top: 20px;
+  padding-top: 19px;
 }
 
 /* map */
