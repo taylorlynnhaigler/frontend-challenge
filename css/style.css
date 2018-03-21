@@ -19,10 +19,21 @@ body {
 
 /* font styling */
 
-h2, h4, h5 {
-  letter-spacing: 1.2px;
+h2, h3, h4, h5 {
+  letter-spacing: 1.1px;
 }
 
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-top: 24px;
+  font-size: 1.2em;
+  font-style: italic;
+}
 
 .time h4, .time h5 {
   text-align: right;
@@ -37,12 +48,10 @@ h5 {
 .special {
   font-size: 1.2em;
   font-style: italic;
-  margin-top: -6px;
-  padding-bottom: 6px;
 }
 
-.time.special {
-  padding-right: 20px;
+.left {
+  margin-left: -12px;
 }
 
 
@@ -66,39 +75,38 @@ header {
 }
 
 .toggle img {
-  margin-bottom: 4px;
-  margin-top: 16px;
+  padding-bottom: 4px;
+  padding-top: 16px;
   height: 32px;
   width: 232px;
 }
 
 .title img {
-
   margin-bottom: 8px;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .arrow {
-  height: 32px;
+  height: 28px;
   width: 18px;
   float: left;
-  padding-left: 10px;
+  padding-top: 4px;
+  padding-left: 16px;
 }
 
 .location {
   width: 270px;
   float: left;
-  padding-left: 16px;
-  padding-top: 8px;
+  padding-left: 18px;
+  padding-top: 29px;
   text-align: center;
 }
 
-.account {
+.menu {
   width: 9px;
   height: 30px;
-  padding-right: 10px;
-  padding-left: 12px;
-  padding-top: 19px;
+  padding-right: 8px;
+  padding-top: 20px;
 }
 
 /* map */
@@ -118,9 +126,8 @@ header {
   flex-wrap: wrap;
   height: 300px;
   justify-content: left;
-  padding-top: 16px;
   padding-bottom: 24px;
-  width: 420px;
+  width: 360px;
 }
 
 .destination, .time {
@@ -129,29 +136,29 @@ header {
 
 .number {
   width: 60px;
-  height: 80px;
+  height: 50px;
   float: left;
-  margin-top: -2px;
   padding-left: 8px;
+  margin-top: 2px;
 }
 
 .destination {
   width: 200px;
-  height: 70px;
+  height: 50px;
   float: left;
   padding-left: 8px;
 }
 
 .time {
   width: 60px;
-  height: 70px;
+  height: 50px;
   padding-right: 24px;
   float: left;
 }
 
 .number img {
-  width: 58px;
-  height: 58px;
+  width: 56px;
+  height: 56px;
   padding-top: 0;
   margin-left: 0;
 }
@@ -159,9 +166,11 @@ header {
 /* adjusting spacing to the bus schedules in the table to correct alignment */
 
 .adjust {
-  padding-top: 2px;
+  padding-top: 25px;
 }
-
 .target {
-  margin-top: -4px;
+  padding-top: 24px;
+}
+.direction {
+  padding-top: 16px;
 }
