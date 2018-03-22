@@ -126,20 +126,16 @@ ul {
 li {
   display: inline-block;
   border: 1px solid black;
-  text-align:
+  text-align: left;
 }
 
-ul.buslist {
+.buslist {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.bus li {
-  padding-top: -1000px;
-}
-
-li.bus {
+.bus {
   max-width: 360px;
 }
 
@@ -151,9 +147,11 @@ li.bus {
 li.number {
   width: 60px;
 }
+
 li.destination {
   width: 180px;
 }
+
 li.time {
   width: 80px;
 }
