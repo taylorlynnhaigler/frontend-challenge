@@ -5,146 +5,93 @@
       <title>BusyBus App</title>
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
-
   </head>
   <body>
 <!-- status bar, title and toggle -->
 <section class = "iphone">
       <header>
-          <div class="status-bar">
-            <img src="img/status-bar.png" alt="status-bar">
-          </div>
-          <div class="title">
-            <img src="img/icon/arrow.png" alt="arrow-icon" class = "arrow">
-              <div class="location">
-                <h2>Washington & State St.</h2>
-              </div>
-            <img src="img/icon/account.png" alt="account-icon" class = "menu">
-          </div>
-          <div class="toggle">
-              <img src="img/toggle.png" alt="toggle">
-          </div>
+          <img src="img/status-bar.png" alt="status-bar" class="status-bar" >
+          <img src="img/icon/arrow.png" alt="arrow-icon" class="arrow">
+          <h2 class="location">Washington & State St.</h2>
+          <img src="img/icon/account.png" alt="account-icon" class="menu">
+          <img src="img/toggle.png" alt="toggle" class = "toggle">
       </header>
-  <!-- map and notification banner-->
+<!-- map and notification banner-->
       <section class = "map">
           <img src="img/map.png" alt="map-view">
       </section>
 <!-- bus schedule-->
-      <section class = "container schedule">
-        <div class="direction">
-          <h3>Eastbound</h3>
-        </div>
-        <div class="businfo">
-            <div class="number">
-              <img src="img/symbol-60.png" alt="60">
-            </div>
-            <div class="destination adjust">
-              <h4>Randolph / Harbor Dr.</h4>
-            </div>
-            <div class="time adjust">
-              <h4>12:20pm</h4>
-            </div>
-        </div>
-          <div class="businfo">
-              <div class="number">
-                <img src="img/symbol-124.png" alt="124">
-              </div>
-              <div class="destination special adjust">
-                <h4>Navy Pier</h4>
-              </div>
-              <div class="time special left adjust">
-                <h4>12:20pm</h4>
-              </div>
-          </div>
-          <div class="direction">
-            <h3>Northbound</h3>
-          </div>
-          <div class="businfo">
-              <div class="number">
-                <img src="img/symbol-151.png" alt="151">
-              </div>
-              <div class="destination adjust">
-                <h4>Devon / Clark</h4>
-              </div>
-              <div class="time adjust">
-                <h4>12:32pm</h4>
-              </div>
-          </div>
-          <div class="direction">
-            <h3>Southbound</h3>
-          </div>
-          <div class="businfo">
-              <div class="number">
-                <img src="img/symbol-J14.png" alt="J14">
-              </div>
-              <div class="destination adjust">
-                <h4>103rd / Stony Island</h4>
-              </div>
-              <div class="time adjust">
-                <h4>12:30pm</h4>
-              </div>
-          </div>
-          <div class="businfo">
-              <div class="number">
-                <img src="img/symbol-124.png" alt="124">
-              </div>
-              <div class="destination adjust">
-                <h4>Navy Pier</h4>
-              </div>
-              <div class="time adjust">
-                <h4>12:40pm</h4>
-              </div>
-          </div>
-          <div class="direction">
-            <h3>Reroute</h3>
-          </div>
-          <div class="businfo">
-              <div class="number">
-                <img src="img/symbol-6x.png" alt="6X">
-              </div>
-              <div class="destination target">
-                <h5>Jackson Park Express</h5>
-              </div>
-              <div class="time target">
-                <h5>N/A</h5>
-              </div>
-          </div>
-          <div class="direction">
-            <h3>Out of Service</h3>
-          </div>
-          <div class="businfo extra">
-              <div class="number">
-                <img src="img/symbol-4.png" alt="4">
-              </div>
-              <div class="destination target">
-                <h5>Cottage Grove</h5>
-              </div>
-              <div class="time target">
-                <h5>Resumes 12:10am</h5>
-              </div>
-          </div>
-          <div class="businfo extra">
-              <div class="number slight">
-                <img src="img/symbol-20.png" alt="20">
-              </div>
-              <div class="destination target">
-                <h5>Madison</h5>
-              </div>
-              <div class="time target">
-                <h5>Resumes 12:10am</h5>
-              </div>
-          </div>
-          <div class="businfo">
-              <div class="number">
-                <img src="img/symbol-157.png" alt="157">
-              </div>
-              <div class="destination target">
-                <h5>Streeterville / Taylor</h5>
-              </div>
-              <div class="time target">
-                <h5>Resumes 6:00am</h5>
-              </div>
-          </div>
+      <section class="schedule">
+          <ul class="buslist">
+                <li class="bus">
+                  <h3 class="direction">Eastbound</h3>
+                  <ul>
+                    <li class="number"><img src="img/symbol-60.png" alt="60"></li>
+                    <li class="destination"><h4>Randolph / Harbor Dr.</h4></li>
+                    <li class="time"><h4>12:20pm</h4></li>
+                  </ul>
+                </li>
+                <li class="bus">
+                  <ul>
+                    <li class="number"><img src="img/symbol-124.png" alt="124"></li>
+                    <li class="destination"><h4>Navy Pier</h4></li>
+                    <li class="time"><h4>12:20pm</h4></li>
+                  </ul>
+                </li>
+            <h3 class="direction">Northbound</h3>
+                <li class="bus">
+                  <ul>
+                    <li class="number"><img src="img/symbol-151.png" alt="151"></li>
+                    <li class="destination"><h4>Devon / Clark</h4></li>
+                    <li class="time"><h4>12:32pm</h4></li>
+                  </ul>
+                </li>
+            <h3 class="direction">Southbound</h3>
+                <li class="bus">
+                  <ul>
+                    <li class="number"><img src="img/symbol-j14.png" alt="J14"></li>
+                    <li class="destination"><h4>103rd / Stony Island</h4></li>
+                    <li class="time"><h4>12:30pm</h4></li>
+                  </ul>
+                </li>
+                <li class="bus">
+                  <ul>
+                    <li class="number"><img src="img/symbol-124.png" alt="124"></li>
+                    <li class="destination"><h4>Navy Pier</h4></li>
+                    <li class="time"><h4>12:40pm</h4></li>
+                  </ul>
+                </li>
+            <h3 class="direction">Reroute</h3>
+              <li class="bus">
+                <ul>
+                  <li class="number"><img src="img/symbol-6x.png" alt="6X"></li>
+                  <li class="destination"><h5>Jackson Park Express</h5></li>
+                  <li class="time"><h5>N/A</h5></li>
+                </ul>
+              </li>
+            <h3 class="direction">Out of Service</h3>
+              <li class="bus">
+                <ul>
+                  <li class="number"><img src="img/symbol-4.png" alt="4"></li>
+                  <li class="destination"><h5>Cottage Grove</h5></li>
+                  <li class="time"><h5>Resumes 12:10am</h5></li>
+                </ul>
+              </li>
+              <li class="bus">
+                <ul>
+                  <li class="number"><img src="img/symbol-20.png" alt="20"></li>
+                  <li class="destination"><h5>Madison</h5></li>
+                  <li class="time"><h5>Resumes 12:10am</h5></li>
+                </ul>
+              </li>
+              <li class="bus">
+                <ul>
+                  <li class="number"><img src="img/symbol-157.png" alt="157"></li>
+                  <li class="destination"><h5>Streeterville / Taylor</h5></li>
+                  <li class="time"><h5>Resumes 6:00am</h5></li>
+                </ul>
+              </li>
+            </ul>
         </section>
       </section>
     </body>
