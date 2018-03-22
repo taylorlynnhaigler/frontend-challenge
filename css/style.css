@@ -30,7 +30,6 @@ h2 {
 h3 {
   font-size: 1.2em;
   font-style: italic;
-  padding: 16px 0 24px 8px;
 }
 
 h5 {
@@ -53,7 +52,7 @@ header {
   top: 0;
 }
 
-.status-bar  {
+.status-bar {
   padding-top: 4px;
   width: 97%;
 }
@@ -63,7 +62,6 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .toggle {
   padding-bottom: 4px;
@@ -114,6 +112,10 @@ header {
   padding-bottom: 24px;
 }
 
+.direction {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 ul {
   overflow-x: hidden;
   white-space: wrap;
@@ -131,6 +133,10 @@ ul.buslist {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bus li {
+  padding-top: -1000px;
 }
 
 li.bus {
