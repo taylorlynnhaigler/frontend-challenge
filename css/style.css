@@ -133,11 +133,6 @@ ul.buslist {
   margin-right: auto;
 }
 
-.table {
-  display: table;
-  margin: 0 auto;
-}
-
 li.bus {
   max-width: 360px;
 }
