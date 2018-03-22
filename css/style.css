@@ -1,3 +1,5 @@
+/* background styling */
+
 html {
   overflow-y: hidden;
 }
@@ -7,6 +9,7 @@ body {
   color: #fff;
   font-family: "Roboto Light", Helvetica, sans-serif;
   font-size: 14px;
+  letter-spacing: .1em;
   height: 600px;
   margin: auto;
   margin-top: 50px;
@@ -19,10 +22,6 @@ body {
 
 /* font styling */
 
-h2, h3, h4, h5 {
-  letter-spacing: 1.1px;
-}
-
 h2 {
   font-size: 1.4em;
 }
@@ -30,6 +29,11 @@ h2 {
 h3 {
   font-size: 1.2em;
   font-style: italic;
+  padding-top: 16px;
+}
+
+.adjust {
+  padding: 16px 0px 16px 0px;
 }
 
 h5 {
@@ -43,6 +47,9 @@ h5 {
   font-style: italic;
 }
 
+.time.special {
+  padding-left: -2px;
+}
 
 /* header */
 
@@ -64,35 +71,31 @@ header {
 }
 
 .toggle {
-  padding-bottom: 4px;
-  padding-top: 16px;
   height: 32px;
-  width: 232px;
   margin: auto;
+  padding: 16px 0px 4px 0px;
+  width: 232px;
 }
 
 .arrow {
   height: 28px;
   width: 18px;
   float: left;
-  padding-top: 20px;
-  padding-left: 18px;
+  padding: 20px 0px 0px 18px;
 }
 
 .location {
-  width: 270px;
   float: left;
-  padding-left: 12px;
+  padding-left: 8px;
   padding-top: 32px;
   text-align: center;
+  width: 270px;
 }
 
 .menu {
   width: 9px;
   height: 30px;
-  padding-right: 12px;
-  padding-left: 20px;
-  padding-top: 22px;
+  padding: 22px 12px 0px 20px;
 }
 
 /* map */
@@ -108,14 +111,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   height: 300px;
-  width: 360px;
+  width: 100%;
   padding-bottom: 24px;
 }
 
-.direction {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
+/* nested list styling for the bus schedule */
+
 ul {
   overflow-x: hidden;
   white-space: wrap;
@@ -124,19 +125,33 @@ ul {
 }
 
 li {
-  display: inline-block;
-  border: 1px solid black;
-  text-align: left;
+  display: block;
+  float: left;
+}
+
+.time {
+  text-align: right;
+}
+
+.direction {
+  padding-top: 12px;
+}
+
+.align {
+  float: left;
+  padding-top: 23px;
 }
 
 .buslist {
-  width: 94%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 12px;
 }
 
 .bus {
   max-width: 360px;
+  padding-bottom: 16px;
 }
 
 .number img {
@@ -144,14 +159,15 @@ li {
   height: 56px;
 }
 
-li.number {
+.number {
   width: 60px;
 }
 
-li.destination {
+.destination {
   width: 180px;
+  padding-left: 4px;
 }
 
-li.time {
-  width: 80px;
+.time {
+  width: 95px;
 }
